@@ -190,3 +190,43 @@ a:hover {
 .project p {
 	margin-top: -1.5%;
 }
+
+@media screen and (max-width: 1248px) {
+	#main-container, #icon-list {
+		width: 80%;
+		margin-left: 10%;
+	}
+	#main-container {
+		padding-top: 5%;
+		flex-direction: column-reverse;
+	}
+	#icon-list img {
+		margin-top: 10%;
+	}
+	#project-container {
+		width: 60%;
+		text-align: center;
+	}
+	.left, .right {
+		width: 100%;
+		text-align: center;
+	}
+	.right img {
+		width: 30%;
+		height: 30%;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	#icon-list img {
+		margin-top: 30%;
+		width: 40%;
+		height: 40%;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.right img {
+		width: 60%;
+		height: 60%;
+	}
+}
